@@ -12,7 +12,7 @@ INFO201 Problem Set: rmarkdown and plotting February 13, 2023
 
 This is a problem set about rmarkdown and plotting (using ggplot).
 Unlike the previous problem sets, this one does not give you a
-ready-made GH repo with a code file--it is now your taks to create a
+ready-made GH repo with a code file--it is now your task to create a
 repo and include your rmarkdown file in there. You should answer the
 questions below in that file, knit it, and submit both the compiled html
 and link to your repo on canvas.
@@ -27,7 +27,7 @@ you. -- Write explanations as markdown and use the styles like bold and
 italic as appropriate.
 
 • Do not print too much results. It is all well to print a few lines of
-data for evaluaton/demon- stration purposes. But do not print dozens (or
+data for evaluation/demonstration purposes. But do not print dozens (or
 thousands!) of lines--no one bothers to look at that many numbers. You
 will lose points for annoying others (here your graders, but later
 potentially your boss).
@@ -99,11 +99,12 @@ Interim Target-1 value 36ug/m3
 
 ## 1 Load and check data (5pt)
 
-You first task is to do a very simple data check: 1. (1pt) For solving
-the problems, and answering the questions, create a new rmarkdown docu-
-ment with an appropriate title. See
-<https://faculty.washington.edu/otoomet/info201-book/>
-r-markdown.html#r-markdown-rstudio-creating.
+You first task is to do a very simple data check:
+
+1.  (1pt) For solving the problems, and answering the questions, create
+    a new rmarkdown document with an appropriate title. See
+    <https://faculty.washington.edu/otoomet/info201-book/>
+    r-markdown.html#r-markdown-rstudio-creating.
 
 2.  (2pt) Load data. How many rows/columns do we have?
 
@@ -124,12 +125,12 @@ r-markdown.html#r-markdown-rstudio-creating.
 
     (b) (5pt) Now repeat the same for name and iso3-code. Are there
         country names that have more than one iso3-code? What are these
-        countries? Hint: two of these entitites are CHANISL and NLD
+        countries? Hint: two of these entities are CHANISL and NLD
         CURACAO.
 
     <!-- -->
 
-3.  (2pt) What is the minimum and maximum year in these data? 2
+3.  (2pt) What is the minimum and maximum year in these data?
 
 ## 3 CO2 emissions (30pt) Next, let's analyze CO2 emissions.
 
@@ -158,7 +159,7 @@ Hint: Americas 2016 should be 4.80.
 Hint: it should look something along these lines:
 
 6.  Which countries are the three largest, and three smallest CO2
-    emitters (in terms of CO2 per capita) in 2019 for each continent?
+    emitters (in terms of CO2 per capita) in 2016 for each continent?
     (Assume region is continent).
 
 ## 4 GDP per capita (50pt)
@@ -177,9 +178,7 @@ Let's look at GDP per capita (GDP_PC ).
     world developed through the last 60 years?
 
 4.  (6pt) Compute the average life expectancy for each continent in 1960
-    and
-
-5.  Do the results fit with what do you see on the figures?
+    and 2019. Do the results fit with what do you see on the figures?
 
 Note: here as average I mean just average over countries, ignore the
 fact that countries are of different size.
